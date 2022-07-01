@@ -52,8 +52,9 @@ body {
 
 /* Media queries */
 @media screen and (min-width:  992px) {
-	.button:hover {
-		background-color: red;
+	.btn:hover {
+		background-color: hsl(158, 36%, 28%);
+		color: hsl(0, 0%, 100%);
 	}
 	picture {
 		display: contents;
