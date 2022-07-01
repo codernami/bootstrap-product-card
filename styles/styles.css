@@ -1,0 +1,61 @@
+:root {
+	--bg-body: hsl(30, 38%, 92%);
+}	
+html {
+	font-size: 14px;
+}
+body {
+	background-color: var(--bg-body);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	max-width: 1440px;
+	padding: 4rem;
+}
+.card {
+	width: 345px;
+}
+.card-details {
+	letter-spacing: 5px;
+}
+.card-title {
+	font-size: 2rem;
+}
+
+/* Fonts */
+.font-serif {
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+}
+.font-sans-serif {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Colors */
+.title-color {
+	color: hsl(212, 21%, 14%);
+}
+.text-color {
+	color: hsl(228, 12%, 48%);;
+}
+.price-color {
+	color: hsl(158, 36%, 37%);
+}
+.btn-bg-color {
+	background-color: hsl(158, 36%, 37%);
+	color: hsl(0, 0%, 100%);	
+}
+.btn-size {
+	width: 295px;
+}
+
+/* Media queries */
+@media screen and (min-width:  992px) {
+	.button:hover {
+		background-color: red;
+	}
+	picture {
+		display: contents;
+	}
+}
