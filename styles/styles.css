@@ -51,12 +51,12 @@ body {
 }
 
 /* Media queries */
-@media screen and (min-width:  992px) {
+@media screen and (min-width: 992px) {
 	.btn:hover {
 		background-color: hsl(158, 36%, 28%);
 		color: hsl(0, 0%, 100%);
 	}
-	picture {
-		display: contents;
+	.card {
+		width: 600px;
 	}
 }

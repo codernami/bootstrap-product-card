@@ -18,10 +18,12 @@
 </head>
 <body>
   <main>
-    <div class="card card-rounded d-lg-flex  flex-lg-row justify-content-lg-center">
+    <div class="card shadow-lg rounded-lg d-lg-flex flex-lg-row justify-content-lg-center">
       <picture>
-        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 992px)" type="image/svg+xml">
-        <img src="./images/image-product-desktop.jpg" class="card-img-top" alt="...">
+        <source media="(min-width: 992px)" srcset="./images/image-product-desktop.jpg">
+        <source media="(min-width: 300px)" srcset="./images/image-product-mobile.jpg">
+        <source srcset="./images/image-product-desktop.jpg">  
+        <img src="./images/image-product-mobile.jpg" class="card-img-top" alt="Bottle of perfume in the middle of two leaves">
       </picture>
       <div class="card-body d-lg-flex flex-lg-column justify-content-lg-between text-bg-light">
         <p class="card-details d-block fs-6 text text-uppercase text-color py-2 mb-0">
