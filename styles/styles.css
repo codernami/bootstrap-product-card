@@ -59,4 +59,7 @@ body {
 	.card {
 		width: 600px;
 	}
+	.card-body {
+		padding-bottom: 0;
+	}
 }
