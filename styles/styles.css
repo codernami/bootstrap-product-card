@@ -49,10 +49,15 @@ body {
 .btn-size {
 	width: 295px;
 }
+.btn:focus {
+	background-color: hsl(158, 36%, 28%);
+	color: hsl(0, 0%, 100%);
+}
 
 /* Media queries */
 @media screen and (min-width: 992px) {
-	.btn:hover {
+	.btn:hover,
+	.btn:focus {
 		background-color: hsl(158, 36%, 28%);
 		color: hsl(0, 0%, 100%);
 	}
