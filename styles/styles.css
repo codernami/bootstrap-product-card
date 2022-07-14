@@ -49,6 +49,7 @@ body {
 .btn-size {
 	width: 295px;
 }
+.btn:hover,
 .btn:focus {
 	background-color: hsl(158, 36%, 28%);
 	color: hsl(0, 0%, 100%);
